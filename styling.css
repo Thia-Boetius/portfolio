@@ -2,13 +2,13 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #333333;
+  background-color: white;
   display: flex;
 }
 
 ul li a {
   display: block;
-  color: white;
+  color: black;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -18,12 +18,13 @@ ul li a:hover {
 }
 
 body{
-    background: linear-gradient(135deg, #FFFFF0 0%, #0e4320 100%);;
+    /*background: linear-gradient(135deg, #FFFFF0 0%, #0e4320 100%);; */
+    background: linear-gradient(160deg, #0e4320 0%,#FFFFF0 100%);;
     
 }
 
 .pagecontent{
-    background-color: aliceblue;
+    background-color: white;
     width: 1200px;
     height: 535px;
     margin: 50px auto;
@@ -43,4 +44,30 @@ body{
   font-size: 25px;
   margin-top: 20px;
   width: 700px;
+  overflow: auto;
+}
+
+.photo{
+  float: right;
+  margin-right: 340px;
+}
+
+.brand{
+  width: 100px;
+  height: 80px;
+  float: right;
+}
+
+.brandli{
+  width: 80px;
+  height: 60px;
+}
+
+img{
+  width: 500px;
+  height: 575px;
+}
+
+footer{
+  padding-top: 140px;
 }
