@@ -1,0 +1,46 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+body{
+    background: linear-gradient(135deg, #FFFFF0 0%, #0e4320 100%);;
+    
+}
+
+.pagecontent{
+    background-color: aliceblue;
+    width: 1200px;
+    height: 535px;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    
+   
+}
+
+#funcname2{
+  color: #0e4320;
+  display: inline;
+}
+
+.intro-line{
+  font-size: 25px;
+  margin-top: 20px;
+  width: 700px;
+}
